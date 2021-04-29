@@ -1,0 +1,48 @@
+
+body{
+    background-color:grey;
+}
+
+.clock{
+    position: relative; 
+    width: 40vw; 
+    height: 36vw;
+    margin: auto;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    box-shadow: 1vw 2vw 2vw 1vw black
+
+}
+
+#hr,#min,#sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    opacity: 0.85;
+
+}
+#hr{
+    width: 2.5%;
+    height: 18%;
+    top: 33%;
+    left: 47.5%;
+    /* display: none; */
+}
+#min{
+    width: 1.4%;
+    height: 23%;
+    top: 27.5%;
+    left: 48%;
+    /* display: none; */
+
+}
+#sec{
+    width: 0.5%;
+    height: 30%;
+    top: 20%;
+    left: 48.5%;
+    /* display: none; */
+
+}
+
